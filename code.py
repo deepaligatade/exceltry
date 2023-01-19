@@ -5,7 +5,7 @@ import streamlit as st
 
 #####################################################
 ########### Read the file ####################
-files = ox.load_workbook("https://github.com/deepaligatade/exceltry/blob/cbcc6634ef1f82e9a3a704cb8ef9d73505564cf2/data/Data.xlsx")
+files = ox.load_workbook("Data.xlsx")
 #https://github.com/deepaligatade/exceltry/blob/cbcc6634ef1f82e9a3a704cb8ef9d73505564cf2/data/Data.xlsx
 data = files.active
 id =st.number_input("ID")
